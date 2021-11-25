@@ -44,9 +44,7 @@ input[type="button"] {
 }
 
 .functionButton:active,
-.numericButton:active,
-.functionButton:focus,
-.numericButton:focus {
+.numericButton:active {
   box-shadow: inset 0 4px 3px rgba(0, 0, 0, 0.2);
 }
 
@@ -67,7 +65,7 @@ input[type="button"] {
   background-color: #00ff84;
 }
 
-.functionButton:focus,
+/* .functionButton:focus,
 .numericButton:focus {
   outline: none;
-}
+} */
